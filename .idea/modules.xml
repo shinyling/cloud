@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud.iml" filepath="$PROJECT_DIR$/cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-linphone/server-linphone.iml" filepath="$PROJECT_DIR$/server-linphone/server-linphone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-platform/server-platform.iml" filepath="$PROJECT_DIR$/server-platform/server-platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-platform/service-platform.iml" filepath="$PROJECT_DIR$/service-platform/service-platform.iml" />
+    </modules>
+  </component>
+</project>
