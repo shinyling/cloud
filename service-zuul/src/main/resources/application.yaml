@@ -15,3 +15,5 @@ zuul:
     platform:
       path: /platform/**
       serviceId: server-platform
+logging:
+  config: classpath:log4j2.xml
