@@ -1,0 +1,9 @@
+server:
+  port: 7073
+spring:
+  application:
+    name: service-miya
+  zipkin:
+    base-url: http://localhost:7071
+logging:
+  config: classpath:log4j2.xml

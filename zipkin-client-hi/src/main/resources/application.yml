@@ -1,0 +1,9 @@
+server:
+  port: 7072
+spring:
+  application:
+    name: service-hi
+  zipkin:
+    base-url: http://localhost:7071
+logging:
+  config: classpath:log4j2.xml
