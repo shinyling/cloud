@@ -15,8 +15,8 @@ spring:
         service-id: config-server
 logging:
   config: classpath:log4j2.xml
-  #rabbitmq:
-    #host: localhost
-    #port: 5672
-    #username: shiny
-    #password: shiny
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: shiny
+    password: shiny
