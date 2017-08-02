@@ -1,0 +1,6 @@
+server:
+  port: 8089
+  #port: 8086
+management:
+  security:
+    enabled: false

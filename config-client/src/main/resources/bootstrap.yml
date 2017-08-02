@@ -1,3 +1,7 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8881/eureka/
 spring:
   application:
     name: config-client
@@ -5,10 +9,14 @@ spring:
     config:
       label: master
       profile: dev
+      #uri: http://localhost:8085/
       discovery:
         enabled: true
         service-id: config-server
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8087/eureka/
+logging:
+  config: classpath:log4j2.xml
+  #rabbitmq:
+    #host: localhost
+    #port: 5672
+    #username: shiny
+    #password: shiny
